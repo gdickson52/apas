@@ -1,7 +1,6 @@
 var express = require('express');
 var router = express.Router();
 const client = require('superagent');
-const { response } = require('../app');
 
 router.use(async (resp, req, next) => {
   try {
